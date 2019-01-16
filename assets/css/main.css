@@ -1,0 +1,16 @@
+@keyframes navButtonHover {
+    from {background-color: hsl(0, 0%, 21%)}
+    to {background-color: hsl(0, 0%, 9%)}
+}
+
+
+
+#navButtonHoverClass:hover {
+    animation-name: navButtonHover;
+    animation-direction: alternate;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+
+
