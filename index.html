@@ -55,8 +55,8 @@
             <h1 class="title has-text-white-bis has-text-weight-light has-text-centered">
               Ingame Footage
             </h1>
-            <div class="message has-background-info">
-              <img class="image is-rounded" src="https://t5.rbxcdn.com/78313eab6f140687cb9a46d7041beceb" width="200">
+            <div class="message has-background-info" style="padding: 3px;">
+              <img class="image" src="https://t5.rbxcdn.com/78313eab6f140687cb9a46d7041beceb" width="200">
             </div>
           </div>
 
@@ -64,6 +64,7 @@
     <script>
       window.addEventListener("load", () => {
         let music = new Audio("./assets\\audio\\Getter Jaani - Rockefeller Street Rmx(playvk.com).mp3")
+        music.loop = true
         music.play()
       })
     </script>
